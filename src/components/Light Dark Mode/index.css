@@ -1,0 +1,40 @@
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  height:180px;
+  width:500px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dark-mode{
+
+  background-color: black;
+  color: white;
+}
+
+.light-mode{
+  background-color: white;
+  color: black;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.heading{
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.button{
+  height:30px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 0px;
+}
